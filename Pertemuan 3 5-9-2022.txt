@@ -1,0 +1,28 @@
+PAW Pert 3 
+5/9/2022
+
+
+Form adalah satu sarana untuk memeroleh data dari user.
+data yang terkumpul digunakan untuk suatu kebutuhan si pembuat.
+
+form tergantung dengan action
+inputan tergantung type nya
+
+elemmen Form:
+ACTION
+	tujuan/file yang akan melakukan proses pada inputan data
+	jika dikosongkan (action=**) maka proses akan dilakukan di halaman yang sama
+METHOD
+	POST: mengirimkan data secara langsung, data tak terbatas
+	GET: mengirimkan data secara tidak langsung karena melalui URL, terbatas 2047 data
+NAME
+
+elemmen input: 
+Type 
+name
+size
+maxlength 
+
+
+SESSION memungkinkan untuk terjadinya pengaksesan suatu variabel pada suatu page dan dijalankan pada page-page lain
+	(cara menyimpan suatu variabel agar bisa digunakan di beberapa halaman)

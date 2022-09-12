@@ -1,0 +1,41 @@
+PAW Pert 2 (Intro PHP)
+29/8/2022
+
+Mengapa menggunakan localhost : 
+karena menggunakan komputer sendiri sebagai server
+
+aplikasi yang dikembangkan menggunakan C :
+Counter strike 
+Gameloft (C++)
+
+Open Source :
+jenis aplikasi yang code programnya bisa diedit/bisa dibaca
+
+Free Software :
+aplikasi gratis yang sudah dicompile tapi tidak bisa dibaca code programnya
+
+	Ciri-ciri PHP:
+
+	Popular :
+	banyak programmer yang menggunakan
+
+	Lisensi :
+	Open Source
+
+	Collaboration :
+	Biasanya digunakan berpasangan dengan MsSql, dijalankan bersama Webserver Apache diatas OS Linux
+
+- HTML (Struktur dasar WEB)
+- CSS (Mengatur/mempercantik WEB)
+- JS (Mengatur WEB supaya lebih interaktif)
+
+PHP (Diawali dengan ? dan diakhiri dengan ?)
+PHP merupakan Server scripting (PHP code dieksekusi pada bagian server / dikirim ke client dengan keadaan berbeda dan yang sampai ke pengguna berupa HTML)
+
+PHP dapat dikatakan sebagai produsen file HTML, CSS, JS
+PHP dapat digunakan untuk membatasi seseorang untuk mengakses suatu website (enkripsi & dekripsi data)
+PHP dapat dijalankan disemua Platform, mensupport banyak database server
+
+Apache berfungsi sebagai Web server
+MySql berfungsi sebagai Database server
+
