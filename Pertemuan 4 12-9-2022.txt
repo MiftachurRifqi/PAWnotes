@@ -1,0 +1,61 @@
+PAW Pert 4
+12/9/2022
+
+DBMS: 
+sistem software yang digunakan untuk menyimpan, mengatur 
+dan memastikan data-data tersebut tersimpan dengan aman.
+(define, record, query, update, manage data)
+
+Application --> DBMS  --> Storage area.
+
+How to DBMS save file to HDD
+1. Relational Database
+2. Hierarchical Database
+3. Flat File Database
+4. Object Database
+
+MySQL : 
+.RDBMS (relational database yang banyak disandingkan dengan php)
+.Open source
+.Ideal
+.ANSI SQL (Cross platform & sudah memenuhi standar ANSI SQL
+
+Perintah SQL:
+DDL: Create (membuat), alter (mengedit), truncate, drop, describe, rename
+DML: Insert, update, delete, select (menampilkan data)
+DCL: Grand, revoke
+TCL: Savepoint, rollback, commit
+
+
+*HOW TO CREATE DATABASE:
+
+CREATE DATABASE rifqi
+
+USE rifqi
+
+SHOW TABLES
+
+CREATE TABLE mft  (
+id_mhs INT, 
+nama_mhs VARCHAR(50),
+status_mhs VARCHAR(20)
+)
+
+INSERT INTO mft(id_mhs,nama_mhs, status_mhs)
+VALUES(1, 'rfq','aktif')
+
+SELECT * FROM mft
+
+UPDATE mft
+SET STATUS_mhs = 'aktif'
+
+UPDATE mft
+SET STATUS_mhs = 'hidup'
+WHERE id_mhs = 3
+
+UPDATE mft
+SET status_mhs = 'hidup', nama_mhs = 'rifqi'
+WHERE id_mhs = 1
+
+DELETE FROM mft
+WHERE id_mhs=1
